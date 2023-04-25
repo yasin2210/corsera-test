@@ -31,7 +31,7 @@ body{
     background-color: #000;
     grid-column: 1 / 7;
     color: #fff;
-    background-image: linear-gradient(to right , #5757574f , #000) , url('./pics/head.jpg');
+    background-image: linear-gradient(to right , #5757574f , #000) , url('head.jpg');
     background-size: cover;
     display: grid;
     grid-template-rows: repeat(3 , min-content);
@@ -287,27 +287,27 @@ body{
 
 .pic1{
     grid-area: gallery_1;
-    background-image: url("./pics/gallery1.png");
+    background-image: url("gallery1.png");
 }
 
 .pic2{
     grid-area: gallery_2;
-    background-image: url("./pics/gallery2.jpg");
+    background-image: url("gallery2.jpg");
 }
 
 .pic3{
     grid-area: gallery_3;
-    background-image: url("./pics/gallery3.jpg");
+    background-image: url("gallery3.jpg");
 }
 
 .pic4{
     grid-area: gallery_4;
-    background-image: url("./pics/gallery4.png");
+    background-image: url("gallery4.png");
 }
 
 .pic5{
     grid-area: gallery_5;
-    background-image: url("./pics/gallery5.jpeg");
+    background-image: url("gallery5.jpeg");
 }
 
 
